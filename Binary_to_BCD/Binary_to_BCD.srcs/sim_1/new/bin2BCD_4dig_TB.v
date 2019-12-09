@@ -32,6 +32,7 @@ module bin2BCD_4dig_TB();
     
     initial
     begin
+        clk = 0;
         sw = 0;
     end
     

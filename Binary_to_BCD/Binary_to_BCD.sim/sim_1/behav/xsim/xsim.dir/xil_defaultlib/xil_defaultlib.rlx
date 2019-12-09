@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sim_1/new/bin2BCD_4dig_TB.v,1575850666,verilog,,,,bin2BCD_4dig_TB,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/clk_gen.v,1575582495,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/digit_selector.v,,clk_gen,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/digit_selector.v,1575582495,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/hex_num_gen.v,,digit_selector,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/hex_num_gen.v,1575582495,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/seven_seg.v,,hex_num_gen,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/seven_seg.v,1575582495,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/sseg_x4_top.v,,seven_seg,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/sseg_x4_top.v,1575850572,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sim_1/new/bin2BCD_4dig_TB.v,,display7segInterface,,,,,,,,
+D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/new/bcdConvert.v,1575849740,verilog,,D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.srcs/sources_1/imports/new/clk_gen.v,,bin2BCD_1dig;bin2BCD_4dig,,,,,,,,

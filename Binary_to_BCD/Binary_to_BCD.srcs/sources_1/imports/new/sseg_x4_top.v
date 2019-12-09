@@ -20,9 +20,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module sseg_x4_top(
+module display7segInterface(
     input clk,
     input btnC,
+    input dec_pnt,
     input [15:0] sw,
     output [6:0] seg,
     output [3:0] an,
@@ -33,9 +34,10 @@ module sseg_x4_top(
     wire NOCONNECT;
     wire [3:0] hex_num;
     //Instantiate Modules
+    assign dp = dec_pnt;
     clk_gen cg0(.clk(clk), .rst(btnC), .clk_div(clkd));
     digit_selector ds0(.clk(clkd), .rst(btnC), .digit_sel(an));
-    seven_seg ss0(.sw(hex_num), .an(NOCONNECT), .dp(dp), .seg(seg));
+    seven_seg ss0(.sw(hex_num), .seg(seg));
     hex_num_gen hng0(.digit_sel(an),.sw(sw),.hex_num(hex_num));
     assign JA = {clkd,an[3:0]};
 endmodule

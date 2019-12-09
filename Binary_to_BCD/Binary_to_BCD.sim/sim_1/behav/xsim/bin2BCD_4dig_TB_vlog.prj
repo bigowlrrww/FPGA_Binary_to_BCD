@@ -1,6 +1,11 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../Binary_to_BCD.srcs/sources_1/new/bcdConvert.v" \
+"../../../../Binary_to_BCD.srcs/sources_1/imports/new/clk_gen.v" \
+"../../../../Binary_to_BCD.srcs/sources_1/imports/new/digit_selector.v" \
+"../../../../Binary_to_BCD.srcs/sources_1/imports/new/hex_num_gen.v" \
+"../../../../Binary_to_BCD.srcs/sources_1/imports/new/seven_seg.v" \
+"../../../../Binary_to_BCD.srcs/sources_1/imports/new/sseg_x4_top.v" \
 "../../../../Binary_to_BCD.srcs/sim_1/new/bin2BCD_4dig_TB.v" \
 
 # compile glbl module

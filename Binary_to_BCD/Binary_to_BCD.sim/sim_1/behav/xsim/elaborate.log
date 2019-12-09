@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9ff1b35cda804173b0b9d43e568b8d4d --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bin2BCD_4dig_TB_behav xil_defaultlib.bin2BCD_4dig_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bin2BCD_1dig
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.digit_selector
+Compiling module xil_defaultlib.seven_seg
+Compiling module xil_defaultlib.hex_num_gen
+Compiling module xil_defaultlib.display7segInterface
+Compiling module xil_defaultlib.bin2BCD_4dig
+Compiling module xil_defaultlib.bin2BCD_4dig_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bin2BCD_4dig_TB_behav
