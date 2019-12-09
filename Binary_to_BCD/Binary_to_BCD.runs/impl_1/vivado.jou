@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec  8 17:21:11 2019
+# Process ID: 14564
+# Current directory: D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.runs/impl_1
+# Command line: vivado.exe -log bin2BCD_4dig.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bin2BCD_4dig.tcl -notrace
+# Log file: D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.runs/impl_1/bin2BCD_4dig.vdi
+# Journal file: D:/FPGA/FPGA_Binary_to_BCD/Binary_to_BCD/Binary_to_BCD.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source bin2BCD_4dig.tcl -notrace
